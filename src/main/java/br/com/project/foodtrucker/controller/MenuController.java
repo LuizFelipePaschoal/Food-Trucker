@@ -2,6 +2,7 @@ package br.com.project.foodtrucker.controller;
 
 
 import br.com.project.foodtrucker.model.Menu;
+import br.com.project.foodtrucker.model.enums.CategoryMenu;
 import br.com.project.foodtrucker.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,34 +16,39 @@ import java.util.UUID;
 public class MenuController {
 
     @Autowired
-    private MenuService service;
+    private MenuService menuService;
 
     @GetMapping
     public ResponseEntity<List<Menu>> list() {
-        return ResponseEntity.ok(service.listAll());
+        return ResponseEntity.ok(menuService.listAll());
     }
+
 
     @GetMapping("/{id}")
     public ResponseEntity<Menu> search(@PathVariable UUID id) {
-        Menu menu = service.searchById(id);
+        Menu menu = menuService.searchById(id);
         return menu != null ? ResponseEntity.ok(menu) : ResponseEntity.notFound().build();
     }
 
     @PostMapping
     public  ResponseEntity<Menu> create(@RequestBody Menu menu) {
-        return ResponseEntity.ok(service.save(menu));
+        return ResponseEntity.ok(menuService.save(menu));
     }
 
     @PutMapping("/{id}")
     public ResponseEntity<Menu> update(@PathVariable UUID id, @RequestBody Menu menu) {
         menu.setId(id);
-        return  ResponseEntity.ok(service.save(menu));
+        return  ResponseEntity.ok(menuService.save(menu));
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable UUID id) {
-        service.delete(id);
+        menuService.delete(id);
         return ResponseEntity.noContent().build();
+    }
+    @GetMapping("/category/{category}")
+    public ResponseEntity<List<Menu>> listByCategory(@PathVariable CategoryMenu category) {
+        return ResponseEntity.ok(menuService.searchByCategory(category));
     }
 
 }
