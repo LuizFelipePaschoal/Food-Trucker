@@ -1,6 +1,6 @@
-package br.com.project.foodtrucker.dto;
+package br.com.project.foodtruck.dto;
 
-import br.com.project.foodtrucker.model.enums.TypeUsers;
+import br.com.project.foodtruck.model.enums.TypeUsers;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package br.com.project.foodtrucker.repository;
+package br.com.project.foodtruck.repository;
 
-import br.com.project.foodtrucker.model.BusinessStatus;
+import br.com.project.foodtruck.model.BusinessStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

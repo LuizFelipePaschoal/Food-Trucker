@@ -1,13 +1,13 @@
-package br.com.project.foodtrucker;
+package br.com.project.foodtruck;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FoodtruckerApplication {
+public class FoodtruckApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FoodtruckerApplication.class, args);
+		SpringApplication.run(FoodtruckApplication.class, args);
 	}
 
 }

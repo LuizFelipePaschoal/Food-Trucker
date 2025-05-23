@@ -1,4 +1,4 @@
-package br.com.project.foodtrucker.model;
+package br.com.project.foodtruck.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,10 +1,9 @@
-package br.com.project.foodtrucker.service;
+package br.com.project.foodtruck.service;
 
 
-import br.com.project.foodtrucker.model.Users;
-import br.com.project.foodtrucker.model.enums.TypeUsers;
-import br.com.project.foodtrucker.repository.UsersRepository;
-import org.apache.catalina.User;
+import br.com.project.foodtruck.model.Users;
+import br.com.project.foodtruck.model.enums.TypeUsers;
+import br.com.project.foodtruck.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

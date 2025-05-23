@@ -1,8 +1,8 @@
-package br.com.project.foodtrucker.service;
+package br.com.project.foodtruck.service;
 
-import br.com.project.foodtrucker.model.Menu;
-import br.com.project.foodtrucker.model.enums.CategoryMenu;
-import br.com.project.foodtrucker.repository.MenuRepository;
+import br.com.project.foodtruck.model.Menu;
+import br.com.project.foodtruck.model.enums.CategoryMenu;
+import br.com.project.foodtruck.repository.MenuRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

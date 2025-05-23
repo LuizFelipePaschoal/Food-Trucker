@@ -1,4 +1,4 @@
-package br.com.project.foodtrucker.dto;
+package br.com.project.foodtruck.dto;
 
 import lombok.Data;
 

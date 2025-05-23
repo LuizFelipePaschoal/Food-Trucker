@@ -1,4 +1,4 @@
-package br.com.project.foodtrucker.model.enums;
+package br.com.project.foodtruck.model.enums;
 
 public enum CategoryMenu {
 

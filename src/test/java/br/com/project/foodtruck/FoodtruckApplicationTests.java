@@ -1,10 +1,10 @@
-package br.com.project.foodtrucker;
+package br.com.project.foodtruck;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FoodtruckerApplicationTests {
+class FoodtruckApplicationTests {
 
 	@Test
 	void contextLoads() {

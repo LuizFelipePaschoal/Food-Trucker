@@ -1,8 +1,8 @@
-package br.com.project.foodtrucker.controller;
+package br.com.project.foodtruck.controller;
 
-import br.com.project.foodtrucker.model.Users;
-import br.com.project.foodtrucker.model.enums.TypeUsers;
-import br.com.project.foodtrucker.service.UsersService;
+import br.com.project.foodtruck.model.Users;
+import br.com.project.foodtruck.model.enums.TypeUsers;
+import br.com.project.foodtruck.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

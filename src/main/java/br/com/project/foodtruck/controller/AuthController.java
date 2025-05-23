@@ -1,9 +1,9 @@
-package br.com.project.foodtrucker.controller;
+package br.com.project.foodtruck.controller;
 
-import br.com.project.foodtrucker.dto.LoginRequest;
-import br.com.project.foodtrucker.dto.LoginResponse;
-import br.com.project.foodtrucker.model.Users;
-import br.com.project.foodtrucker.repository.UsersRepository;
+import br.com.project.foodtruck.dto.LoginRequest;
+import br.com.project.foodtruck.dto.LoginResponse;
+import br.com.project.foodtruck.model.Users;
+import br.com.project.foodtruck.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

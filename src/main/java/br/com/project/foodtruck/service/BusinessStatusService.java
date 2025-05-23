@@ -1,7 +1,7 @@
-package br.com.project.foodtrucker.service;
+package br.com.project.foodtruck.service;
 
-import br.com.project.foodtrucker.model.BusinessStatus;
-import br.com.project.foodtrucker.repository.BusinessStatusRepository;
+import br.com.project.foodtruck.model.BusinessStatus;
+import br.com.project.foodtruck.repository.BusinessStatusRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

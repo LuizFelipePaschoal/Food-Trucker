@@ -1,6 +1,6 @@
-package br.com.project.foodtrucker.model;
+package br.com.project.foodtruck.model;
 
-import br.com.project.foodtrucker.model.enums.TypeUsers;
+import br.com.project.foodtruck.model.enums.TypeUsers;
 import jakarta.persistence.*;
 import lombok.Data;
 

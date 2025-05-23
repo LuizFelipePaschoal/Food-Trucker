@@ -1,9 +1,9 @@
-package br.com.project.foodtrucker.controller;
+package br.com.project.foodtruck.controller;
 
 
-import br.com.project.foodtrucker.model.Menu;
-import br.com.project.foodtrucker.model.enums.CategoryMenu;
-import br.com.project.foodtrucker.service.MenuService;
+import br.com.project.foodtruck.model.Menu;
+import br.com.project.foodtruck.model.enums.CategoryMenu;
+import br.com.project.foodtruck.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

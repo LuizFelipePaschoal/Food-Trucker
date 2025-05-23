@@ -1,7 +1,7 @@
-package br.com.project.foodtrucker.repository;
+package br.com.project.foodtruck.repository;
 
-import br.com.project.foodtrucker.model.Menu;
-import br.com.project.foodtrucker.model.enums.CategoryMenu;
+import br.com.project.foodtruck.model.Menu;
+import br.com.project.foodtruck.model.enums.CategoryMenu;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
